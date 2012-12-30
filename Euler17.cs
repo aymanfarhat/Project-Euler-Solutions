@@ -10,36 +10,15 @@ namespace Euler17
     {
         static void Main(string[] args)
         {
-            Dictionary<int,string> data = new Dictionary<int,string>();
-            data.Add(1, "one");
-            data.Add(2, "two");
-            data.Add(3, "three");
-            data.Add(4, "four");
-            data.Add(5, "five");
-            data.Add(6, "six");
-            data.Add(7, "seven");
-            data.Add(8, "eight");
-            data.Add(9, "nine");
-            data.Add(10, "ten");
-            data.Add(11, "eleven");
-            data.Add(12, "twelve");
-            data.Add(13, "thirteen");
-            data.Add(14, "fourteen");
-            data.Add(15, "fifteen");
-            data.Add(16, "sixteen");
-            data.Add(17, "seventeen");
-            data.Add(18, "eighteen");
-            data.Add(19, "nineteen");
-            data.Add(20, "twenty");
-            data.Add(30, "thirty");
-            data.Add(40, "forty");
-            data.Add(50, "fifty");
-            data.Add(60, "sixty");
-            data.Add(70, "seventy");
-            data.Add(80, "eighty");
-            data.Add(90, "ninety");
-            data.Add(100, "hundred");
-            data.Add(1000, "thousand");
+            Dictionary<int, string> data = new Dictionary<int, string> 
+            { 
+                {1, "one"},{2, "two"},{3, "three"},{4, "four"},{5, "five"},{6, "six"},
+                {7, "seven"},{8, "eight"},{9, "nine"},{10, "ten"},{11, "eleven"},
+                {12, "twelve"},{13, "thirteen"},{14, "fourteen"},{15, "fifteen"},
+                {16, "sixteen"},{17, "seventeen"},{18, "eighteen"},{19, "nineteen"},
+                {20, "twenty"},{30, "thirty"},{40, "forty"},{50, "fifty"},{60, "sixty"},
+                {70, "seventy"},{80, "eighty"},{90, "ninety"},{100, "hundred"},{1000, "thousand"}
+            };
 
             string chars = "";
 
