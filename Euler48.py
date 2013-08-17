@@ -3,7 +3,7 @@
 series_sum = 0
 
 for a in xrange(1,1000):
-		series_sum += a**a
+        series_sum += a**a
 
 print str(series_sum)[-10:]
 
